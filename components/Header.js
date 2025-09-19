@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, StyleSheet } from 'react-native';
+import { Text, View, StyleSheet } from 'react-native';
 
 export default function Header(){
     
@@ -10,16 +10,18 @@ export default function Header(){
         </View>
     );
 
-    const styles = StyleSheet.create ({
-        headerText: {
-        fontSize: 18,
-        fontWeight: '600',
-        color: '#34495E',
-        marginBottom: 5,
-    },
-        dateText: {
-        fontSize: 16,
-        color: '#34495E',
-    },
-    })
-}
+};
+
+const styles = StyleSheet.create ({
+    headerText: {
+    fontSize: 18,
+    fontWeight: '600',
+    color: '#34495E',
+    marginBottom: 5,
+    textAlign: 'center',
+},
+    dateText: {
+    fontSize: 16,
+    color: '#34495E',
+},
+})

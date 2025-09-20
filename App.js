@@ -1,24 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { View, StyleSheet, SafeAreaView } from 'react-native';
 import Header from './components/Header';
 import Counter from './components/Counter';
-import Button from './components/Button';
 
 const App = () => {
+  const [chooseDate, setChooseDate] = useState('')
+
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.container}>
         <View style={styles.card}>
           
-          <Header></Header>
+          <Header chooseDate={chooseDate} setChooseDate={setChooseDate}></Header>
           
           <View style={styles.spacer} />
 
-          <Counter></Counter>
+          <Counter chooseDate={chooseDate}></Counter>
 
           <View style={styles.spacer} />
-          
-          <Button></Button>
+
 
         </View>
       </View>

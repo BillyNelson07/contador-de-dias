@@ -1,15 +1,21 @@
-import React from 'react';
-import { View, Text, TouchableOpacity, StyleSheet} from 'react-native';
+import React, { useState } from 'react';
+import { View, Text, TouchableOpacity, StyleSheet, Button} from 'react-native';
 
 
-export default function Button(){
-    
+export default function MainButton(){
+ const [chooseDate, setChooseDate] = useState(false)
+
+ const buttonPress = () => {
+
+ }
     
     return(
         <View>
-            <TouchableOpacity style={styles.button}>
-                <Text style={styles.buttonText}>Definir Nova Data</Text>
-            </TouchableOpacity>
+            <Button
+            title={chooseDate ? "" : "Definir nova data"}
+            onPress={() => setChooseDate(!openCalendar)}
+            
+            />
         </View> 
     );
 

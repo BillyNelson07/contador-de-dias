@@ -1,0 +1,16 @@
+Contador de Dias React Native
+
+Desenvolvi um aplicativo mobile utilizando React Native para calcular e exibir os dias restantes até uma data selecionada. O app permite que o usuário escolha uma data através de um calendário interativo e visualiza instantaneamente a contagem regressiva.
+
+Tecnologias utilizadas:
+
+React Native
+React Native Calendars
+Funcionalidades:
+
+Seleção de data através de um calendário intuitivo.
+Cálculo automático dos dias restantes.
+Interface amigável e responsiva.
+Este projeto foi uma ótima oportunidade para aprimorar minhas habilidades em React Native, manipulação de datas e criação de interfaces mobile.
+
+#ReactNative #MobileDevelopment #JavaScript #UI #UX #Programação #DesenvolvimentoMobile
